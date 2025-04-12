@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visites Virtuelles Gabon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --text-color: #f1f5f9;
+      --accent: #facc15;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    header {
+      background: #1e293b;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: var(--text-color);
+      text-decoration: none;
+      margin-left: 1rem;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+    }
+    .services ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+    .services li::before {
+      content: '•';
+      color: var(--accent);
+      margin-right: 0.5rem;
+    }
+    footer {
+      background: #1e293b;
+      text-align: center;
+      padding: 1rem;
+      color: #94a3b8;
+    }
+    input, textarea {
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: var(--text-color);
+      padding: 0.5rem;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    button {
+      background: var(--accent);
+      color: black;
+      padding: 0.5rem 1rem;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #fde047;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Visites Virtuelles Gabon</h1>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Réalisations</a>
+      <a href="#about">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h2>Explorez le Gabon comme jamais auparavant</h2>
+    <p>Des visites virtuelles immersives pour valoriser l’immobilier, le tourisme, l’éducation et plus encore. Découvrez des lieux depuis chez vous.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Nos Services</h2>
+    <ul>
+      <li>Visites virtuelles pour l'immobilier</li>
+      <li>Présentations immersives pour les écoles et universités</li>
+      <li>Événements et communication 360°</li>
+      <li>Promotion touristique et culturelle</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Réalisations</h2>
+    <p>Bientôt des exemples interactifs de nos projets avec vues 360°, intégrations vidéo et plus encore.</p>
+  </section>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Nous sommes une équipe basée au Gabon, passionnée par la technologie immersive. Notre mission : offrir des expériences de visite virtuelle de qualité, accessibles à tous, pour valoriser les espaces culturels, naturels, éducatifs et commerciaux de notre pays.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Votre nom" required />
+      <input type="email" placeholder="Votre email" required />
+      <textarea placeholder="Votre message" rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Visites Virtuelles Gabon - Tous droits réservés.
+  </footer>
+</body>
+</html>
